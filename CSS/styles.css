@@ -32,7 +32,8 @@ ul {
 
 }
 a {
-    color:cornsilk;
+    font-family: letras2;
+    color:rgb(14, 13, 11);
     /*Modificamos el decorado de un texto, si tiene el valor none, le estamos
     indicando que no tendra decoraciones*/
     text-decoration: none;
@@ -62,3 +63,8 @@ font-family: letras;
 src: url('../fonts/ScheherazadeNew-Regular.ttf');
 
 }
+@font-face {
+    font-family: letras2;
+    src: url('../fonts/GREENSEA.otf');
+    
+    }
