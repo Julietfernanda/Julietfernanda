@@ -38,3 +38,21 @@ a {
     /*Le agregamos un margen a la izquierda de 10 pixeles */
     margin-left: 10px;
 }
+ th, td {
+   border: 1px solid black;
+   text-align: center;  
+   padding: 15px;
+}
+table { 
+    width: 100%;
+
+}
+th {
+    height: 50px;
+    background-color: black;
+    color:aliceblue;
+}
+td {
+    background-color: rgb(165, 154, 154);
+    color: black;
+}
