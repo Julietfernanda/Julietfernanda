@@ -73,8 +73,8 @@ src: url('../fonts/ScheherazadeNew-Regular.ttf');
     }
 article {
     text-align: center;
-    margin: 32px auto;
-    width: 80%;
+   /* margin: 32px auto; */
+   /* width: 80%; */
 }
 .column img {
     margin: top 8px;
@@ -95,3 +95,34 @@ article {
 footer {
     text-align: center;
 }
+div#slider{
+    background-image: url('../images/vlcsnap-2016-02-02-20h01m28s61.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 160px);
+    animation: changegojira 5s infinite;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+
+}
+@keyframes changegojira {
+    0%  {
+background-image: url('../images/regular-show--source.jpg.crdownload');
+    }
+    25% {
+        background-image: url('../images/mrdecai\ margaret\ cj.jpg.crdownload');
+    }
+    50% {
+        background-image: url('../images/Historias_corrientes_Regular_Show_Serie_de_TV-329426216-mmed.jpg');
+    }
+    75% {
+        background-image: url('../images/B8357-A_01cVODs-1928-308902---REGULAR-SHOW---DIGITAL-SHORTS---233C-131592-286016_VIDSCREENSHOT_30_0.jpg');
+    }
+   100% {
+        background-image: url('../images/descarga.jpg');
+    }
+}
+        
