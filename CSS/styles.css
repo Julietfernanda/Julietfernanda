@@ -1,6 +1,7 @@
 body {
     background-color: rgba(31, 177, 106, 0.493);
     color: rgb(10, 4, 15);
+    font-family: letras, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -55,4 +56,9 @@ th {
 td {
     background-color: rgb(165, 154, 154);
     color: black;
+}
+@font-face {
+font-family: letras;
+src: url('../fonts/ScheherazadeNew-Regular.ttf');
+
 }
