@@ -1,4 +1,4 @@
-Algoritmo Media1
+Algoritmo Mediahora
 	Escribir "Leer un numero"
 	Leer numero1
 	Escribir "Leer otro numero"
